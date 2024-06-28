@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#terminal {
+  border: none;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#header {
+  font-size: .5em;
+  margin-bottom: 10px;
+ font-family: "Courier New", Courier, monospace; 
+}
+#user {
+font-size: 1em;
+color: #FFFFFF;
+}
+
+#output {
+  min-height: 300px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+}
+
+#input-line {
+  display: flex;
+}
+
+#prompt {
+  margin-right: 5px;
+}
+
+#input {
+  background: none;
+  border: none;
+  color: inherit;
+  outline: none;
+  flex: 1;
+}
