@@ -24,7 +24,7 @@ const getCommandResponse = (command) => {
     case "help":
       return "Available commands:<p>help      clearly you know how to use this<p>hello     returns a friendly message<p>date      today's date<p>journal   ***private*** no peeking!<p>clear     clear all prompts";
     case "secretmenu":
-      return "Secret commands:<p> bloom      a beautiful flower for your beautiful self<p>gemini      now this appears to be a good sign...<p>leo      yawn...meow big kitty<p>lewis      gross boy";
+      return "Secret commands:<p>bloom      a beautiful flower for your beautiful self<p>gemini      now this appears to be a good sign...<p>leo        yawn...meow big kitty<p>lewis      gross boy";
     case "hello":
       return "Howdy, partner!";
     case "journal":
